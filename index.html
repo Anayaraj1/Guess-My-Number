@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My nUmber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <button class="again">Again!</button>
+        <p>(Between 1 and 20)</p>
+      </div>
+      <h1>Guess My number</h1>
+      <p class="number">?</p>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" name="guess" class="guess" id="guess" />
+        <button id="checkBtn" class="checkBtn">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start Guessing..</p>
+        <p class="label-score">Score: <span class="score">20</span></p>
+        <p class="label-highscore">Highscore: <span class="highscore">0</span></p>
+      </section>
+    </main>
+  </body>
+
+  <script src="./JS/game.js"></script>
+</html>

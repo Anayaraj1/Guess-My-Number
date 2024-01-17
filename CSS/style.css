@@ -1,0 +1,75 @@
+*{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    font-family: 'Press Start 2P';
+}
+body{
+    background-color: black;
+    color:white;
+}
+header div {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.again{
+    font-size: 20px;
+    padding:20px;
+    margin:20px;
+}
+header{
+    border-bottom: 5px solid white;   
+}
+h1{
+    text-align:center;
+    font-size: 50px;
+    margin-bottom:50px;
+}
+.number{
+    text-align: center;
+    font-size: 60px;
+    background-color: red;
+    width:150px;
+    padding:20px;
+    position: relative;
+    left:45%;
+    top:50px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.guess{
+    padding:30px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    width: 200px;
+    display: block;
+}
+.checkBtn{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 50px;
+}
+.message{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.right{
+    margin-left: 50px;
+    padding-left: 10px;
+}
+.label-score{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.label-highscore{
+    font-size: 20px;
+    margin-top: 30px;
+
+}
